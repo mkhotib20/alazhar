@@ -1,0 +1,7 @@
+Porgress = 
+Data Fasilitas
+
+Sprint 1 : Data Fasilitas done
+Sprint 2 : Data info progress
+Sprint 3 : Claiss Homepage
+Sprint 4 : Claiss Progress

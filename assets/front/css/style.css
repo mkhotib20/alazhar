@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.list-pengumuman{
+	width: 100%;
+	min-height: 50px;
+	padding: 20px;
+	height: auto;
+	margin: 10px;
+	border-radius: 7px;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.2);
+}
+
+.list-pengumuman p, .list-pengumuman {
+	margin: unset;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.judul-pengumuman{
+	font-size: 20px;
+}
+
+.cpt-bg{
+	padding-top: 30px;
+	padding-left: 38px;
+	padding-right: 30px;
+	position: absolute;
+	height: 753px;
+	width: 100%;
+}
+.carousel-inner{
+	z-index: -1;
+}
+.main-page{
+	height: 753px;
+}
+
+.image-link{
+	cursor: zoom-in;
+}
+.image-link:hover{
+	text-decoration: none;
+}
+
+
+
+.fact-page{
+	padding-left: 38px;
+	padding-right: 30px;
+	height: auto;
+	position: relative;
+	background: linear-gradient(
+      rgba(0,0,0, 0.7), 
+      rgba(0,0,0, 0.7)
+    ),url('../img/al azhar 1.jpg') no-repeat center ;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+}
+
+.dark{
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	pointer-events: none;
+	content: "";
+	top: 0; bottom: 0; left: 0; right: 0;
+}
+
+.head-icon:hover{
+	filter: brightness(60%);
+  transition: 0.3s;
+}
+.lang-icon{
+	width: 40px;
+	margin-left: 10px;
+
+}
+.lang-icon:hover{
+	filter: brightness(100%);
+}
+.grayscale{
+	filter: brightness(60%);
+}
+.mp-title{
+	color: white;
+	text-transform: uppercase;
+}
+.mp-title p{
+	margin-bottom: unset;
+	font-weight: bold;
+}
+
+.mp-fact{
+	color: white;
+}
+.mp-fact h1{
+	text-transform: uppercase;
+}
+.right{
+	margin-top: 60px;
+}
+.mp-fact p{
+	margin-bottom: unset;
+}
+
+.navigation{
+	background-color: white;
+	width: 100%;
+	padding-top: 30px;
+	padding: 30px;
+}
+
+.nav-list{
+	list-style-type: none;
+	margin-bottom: 190px;
+}
+.nav-list a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	border-bottom-color: transparent;
+	border-bottom-style: solid;
+	border-bottom-width: 3px; 
+}
+.nav-list li{
+	margin-top: 20px;
+}
+
+.nav-list a:hover{
+	color: #5492f7;
+	border-bottom-color: #5492f7;
+	border-bottom-style: solid;
+	border-bottom-width: 3px; 
+}
+
+.aktif .a{
+	color: #5492f7;
+	border-bottom-color: #5492f7;
+	border-bottom-style: solid;
+	border-bottom-width: 3px; 
+}
+
+
+
+.curriculum{
+	padding-right: 10px;
+	padding-top: 70px;
+	padding-left: 40px;
+	min-height: 500px;
+}
+
+.curriculum h1{
+	color: #5492f7;
+	text-transform: uppercase;
+	margin-bottom: 70px;
+}
+.curriculum h5{
+	color: rgba(0,0,0,0.7);
+	margin-left: 10px;
+}
+
+.curriculum p{
+	font-weight: bold;
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-bottom: unset;
+}
+
+
+.ekskul{
+	padding-top: 30px;
+	padding-left: 40px;
+	min-height: 500px;
+	margin-bottom: 10px;
+}
+.ekskul img{
+	margin-bottom: 100px;
+}
+.ekskul h3{
+	width: 100%;
+	color: #5492f7;
+	margin-top: 30px;
+	border-right: 4px solid #5492f7;
+}
+.ekskul h1{
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.ekskul-section{
+	margin-bottom: 40px;
+}
+.ekskul p{
+	font-size: 25px;
+	margin-bottom: 30px;
+	margin-bottom: unset;
+}
+
+.curriculum-box{
+	background-color: rgba(84, 146, 247,0.5);
+	height: 200px;
+	padding-left: 40px;
+	padding-top: 70px;
+}
+
+.img{
+	height: 500px;
+	width: 95%;
+}
+.frame{
+	position: relative;
+	margin-bottom: 20px;
+}
+.frame:hover .img{
+	filter: brightness(70%);
+}
+.capt{
+	height: auto;
+	width: 95%;
+	display: none;
+	bottom: 0px;
+	padding-left: 15px;
+	background-color: rgba(84, 146, 247,0.7);
+	padding-top: 10px;
+	position: absolute;
+	color: white;
+}
+
+.guru{
+	background-color: rgba(84, 146, 247,0.7);
+	height: auto;
+}
+
+.guru p{
+	font-size: 20px;
+}
+.img h1{
+	color: rgb(84, 146, 247);
+	font-size: 300px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 500px;
+}
+
+.curriculum-right{
+	padding-left: 40px;
+	padding-top: 170px;
+	padding-right: 40px;
+}
+
+.img:hover h1{
+	color: rgb(255,255,255, 0.5);
+}
+.break{
+	margin-bottom: 60px;
+	margin-top: 60px;
+}
+.line{
+	width: 80%;
+	margin-left: 20%;
+	border-bottom: 3px solid grey;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.label{
+	background-color: #5492f7;
+	display: inline-block;
+	writing-mode: vertical-lr;
+	padding: 22px;
+	text-orientation: mixed;
+}
+.fact-right{
+	background-color: white;
+	width: 100%;
+	padding-top: 30px;
+	padding: 30px;
+	position: relative;
+	background:   linear-gradient(
+      rgba(84, 146, 247, 0.45), 
+      rgba(84, 146, 247, 0.45)
+    ), url('../img/fact.jpg') no-repeat center ;
+	background-size: cover;
+	height: 100%;
+	color: white;
+}
+.fact-right h1{
+	margin-bottom: 100px;
+	font-size: 35px;
+}
+.fact-right h2{
+	font-size: 30px;
+}
+.fact-right h3{
+	margin-left: 40px;
+	color: black;
+	font-weight: bold;
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+.fact-page p{
+	text-align: justify;
+}
+.news-box{
+	border-bottom: 4px solid black;
+	min-height: 600px;
+}
+.news-box a{
+	text-decoration: none;
+}
+.news-box:hover{
+	border-bottom-color: #5492f7;
+}
+.img:hover {
+	background-size: contain;
+}
+
+.footer-left{
+	padding-right: 20px;
+	padding-top: 70px;
+	height: auto;
+	background-color: black;
+	min-height: 500px;
+}
+
+.footer-left p{
+	margin-bottom: unset;
+}
+
+footer h1{
+	margin-bottom: 30px;
+}
+
+footer{
+	height: auto;
+	color: white;
+}
+
+.socmed{
+	margin-top: 100px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.socmed img{
+	height: 50px;
+}
+.socmed h2{
+	margin-bottom: 30px;
+}
+.footer-right{
+	height: 100%;
+	padding: 40px;
+	background-color: black;
+}
+
+.comment-form textarea{
+	background-color: transparent;
+	border:2px solid white;
+	color: white;
+	border-radius: 0px;
+	height: auto;
+	min-height: 250px;
+}
+.comment-form textarea:active{
+	background-color: transparent;
+	border:2px solid white;
+}
+.comment-form textarea:focus{
+	background-color: transparent;
+	border:2px solid white;
+	color: white;
+}
+.button{
+	background-color: #5492f7;
+	border: 2px solid #5492f7;
+	border-radius: 0px;
+	padding: 10px;
+	width: 100%;
+	color: white;
+	
+	font-size: 30px;
+}
+.button:hover{
+	background-color: transparent;
+	border: 2px solid #5492f7;
+	color: white;
+
+}
+
+.map{
+	background: linear-gradient(
+				      rgba(84, 146, 247, 0.45), 
+				      rgba(84, 146, 247, 0.45)
+				),
+	url('../img/map.png') no-repeat center;
+	background-size: cover;
+	height: 100%;
+	padding: 30px;
+}
+.map img{
+	margin-top: 200px;
+}
+/*.dropleft-menu{
+	visibility: none;
+	list-style: none;
+	z-index: 999;
+}
+.dropleft-menu a{
+	color: white;
+	border-bottom: 2px solid #5492f7;
+}
+
+.dropleft-menu a:hover{
+	color: white;
+	border-bottom: 2px solid white;
+}
+*/
+.profile-right{
+	padding: 40px;
+}
+.profile-right p{
+	text-align: justify;
+	font-size: 18px
+}
+.profile{
+	padding: 20px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.profile p{
+	font-size: 30px;
+	cursor: pointer;
+}
+.profile p:hover{
+	border-right: 6px solid #5492f7;
+		color: #5492f7;
+}
+.dropdown-menu{
+	background-color: rgba(84, 146, 247,0.6);
+	color: white;
+}
+.dropdown-item{
+	color: white!important;
+}
+.dropdown-item:hover{
+	border-bottom: 3px solid white!important;
+	background-color: unset;
+}
+
+.riwayat-line{
+	display: inline-block;
+	margin-bottom: 20px;
+	border-bottom: 3px solid grey;
+	width: 100%;
+}
+
+.satu{
+	border-bottom: 3px solid #5492f7;
+	width: 10%;
+}
+.dua{
+	border-bottom: 3px solid grey;
+	width: 20%;
+}
+.depan h5{
+	color: #5492f7;
+}
+
+@media(max-width: 992px){
+	.map{
+		display: none;
+	}
+	.head-icon{
+		width: 60px;
+	}
+	.sekolah-img{
+		width: 100%;
+	}
+	.cas{
+		width: 100%;
+		margin-top: 30px;
+	}
+
+	.fact-page{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.ekskul h1{
+		text-transform: uppercase;
+		font-size: 30px;
+	}
+	.socmed div{
+		margin-bottom: 20px;
+	}
+	.mb{
+		text-align: center;
+	}
+	.comment-form{
+		margin-bottom: 40px;
+	}
+	footer{
+		padding: 20px;
+	}
+	.mp-title{
+		margin-top: 70px;
+	}
+	.label{
+		width: 15%;
+		height: 270px;
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+	.footer-left{
+		padding-left: 30px;
+	}
+	.footer-right{
+		padding-left: 30px;
+	}
+	.footer-right h2{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+.footer-right h2{
+	color: white;
+}
+@media(min-width: 992px){
+	.footer-right h2{
+		text-align: right;
+		margin-bottom: 150px;
+	}
+	.head-icon{
+	width: 130px;
+}
+	.sekolah-img{
+		width: 60%;
+	}
+	.cas{
+		width: 50%;
+	}
+
+	.aktif-profile{
+		border-right: 6px solid #5492f7;
+		color: #5492f7;
+	}
+	/*.dropleft-menu{
+		background-color: #5492f7;
+		padding-top: 10px;
+		padding-bottom: 30px;
+
+	}*/
+	.footer-right{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.footer-left{
+		padding-left: 50px;
+	}
+	.label{
+		width: 10%;
+		height: 300px;
+		margin-right: 20px;
+		margin-left: 20px;
+		padding-top: 20px;
+		margin-bottom: 30px;
+	}
+	.mp-title{
+		margin-top: 290px;
+		padding-bottom: 80px;
+		width: 39.1%;
+		border-right:2px solid grey;
+
+	}	
+	.mp-fact{
+		padding-left: 25px;
+		width: 97.3%;
+
+	}
+	.top{
+		padding-top: 100px;
+		border-right:2px solid grey;
+
+	}
+	.bottom{
+		padding-bottom: 80px;
+		padding-top: 60px;
+		min-height: 400px;
+		border-right:2px solid grey;
+	}
+	
+	.space-line{
+		margin-left: 60px;
+		margin-right: 60px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.sline{
+		border: 1.5px solid grey;
+		width: 100%;
+	}
+	.nav-list{
+		margin-top: 200px;
+	}
+	.nav-list a{
+		font-size: 25px;
+	}
+}

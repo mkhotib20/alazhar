@@ -1,0 +1,1 @@
+<li <?php if ($uri=='login') {echo 'class="aktif"'; } ?> ><a class="a" href="<?php echo base_url('admin/login/3') ?>"><?php echo 'Login' ?></a> </li>
